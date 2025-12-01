@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthias Chan - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <nav class="hero-nav">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hero-content">
+            <p class="hero-kicker">Full-Stack Developer</p>
+            <h1 class="hero-title">Matthias</h1>
+            <p class="hero-subtitle">IT Student & Developer</p>
+            <p class="hero-summary">
+                Year 2 IT student at Temasek Polytechnic, building practical solutions with React, Node.js, Python, and AWS.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="button primary">View Projects</a>
+                <a href="#contact" class="button ghost">Let's Talk</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="panel">
+            <div class="panel-header">
+                <p class="panel-accent">Who am I?</p>
+                <h2>About</h2>
+            </div>
+            <div class="panel-body">
+                <p>I'm a passionate developer who thrives on turning ambitious ideas into polished, interactive realities. From building full-stack applications to crafting seamless user experiences, I approach every challenge with curiosity and craftsmanship.</p>
+                
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="about-icon">💻</div>
+                        <h3>Full-Stack Development</h3>
+                        <p>Building end-to-end solutions with React, Node.js, and cloud technologies.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Crafting intuitive interfaces that balance aesthetics with functionality.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">☁️</div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Deploying scalable applications with AWS and modern DevOps practices.</p>
+                    </div>
+                </div>
+
+                <p>I believe in learning by doing, experimenting boldly, and sharing what I discover. My work is driven by curiosity, collaboration, and the desire to make something memorable.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="panel">
+            <div class="panel-header">
+                <p class="panel-accent">My toolkit</p>
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js & Related Libraries</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Next.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Node.js</li>
+                        <li>RESTful APIs</li>
+                        <li>MySQL & Firebase</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools & Cloud</h3>
+                    <ul>
+                        <li>Git & Version Control</li>
+                        <li>AWS Lambda & API Gateway</li>
+                        <li>Agile Methodology (Scrum, Jira)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="panel">
+            <div class="panel-header">
+                <p class="panel-accent">My work</p>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <p class="project-meta">Full-Stack · Web · AWS</p>
+                    <h3>CampusSpace</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript, AWS Lambda, API Gateway, MySQL</p>
+                    <p>Web application for students to book campus facilities with admin approval system.</p>
+                    <ul class="project-tags">
+                        <li>AWS Lambda</li>
+                        <li>MySQL</li>
+                        <li>JavaScript</li>
+                        <li>API Gateway</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <p class="project-meta">Mobile · Firebase</p>
+                    <h3>EcoWarriors</h3>
+                    <p class="project-tech">Flutter, Dart, Firebase Auth, Firestore</p>
+                    <p>Gamified mobile app encouraging eco-friendly missions with points and streaks.</p>
+                    <ul class="project-tags">
+                        <li>Flutter</li>
+                        <li>Firebase</li>
+                        <li>Dart</li>
+                        <li>Mobile Dev</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <p class="project-meta">UX · Web</p>
+                    <h3>FindIT</h3>
+                    <p class="project-tech">Figma, Adobe XD, HTML/CSS/JS</p>
+                    <p>Lost and found app designed to help students locate items quickly.</p>
+                    <ul class="project-tags">
+                        <li>Figma</li>
+                        <li>UI/UX Design</li>
+                        <li>Prototyping</li>
+                        <li>User Research</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <p class="project-meta">CRUD · Backend</p>
+                    <h3>Supermarket Resource Management</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript, Node.js, Express</p>
+                    <p>CRUD system for managing supermarket inventory and product information.</p>
+                    <ul class="project-tags">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>CRUD</li>
+                        <li>REST API</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="panel">
+            <div class="panel-header">
+                <p class="panel-accent">Get in touch</p>
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <a href="mailto:mattchan2007@gmail.com">mattchan2007@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <a href="tel:+6587546658">+65 8754 6658</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/matthias-chan-227644318" target="_blank">View Profile</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💻</div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/optyu" target="_blank">github.com/optyu</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Matthias Chan. Built with passion.</p>
+    </footer>
+</body>
+</html>
